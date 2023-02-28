@@ -16,7 +16,7 @@ COPY hello-node-app/* /app/
 
 # tell docker what command to run when container is run
 CMD npm start
-`
+
 # set a health check
 HEALTHCHECK --interval=5s \
             --timeout=5s \
